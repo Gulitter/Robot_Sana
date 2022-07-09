@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/guyechan/slam_ws/build/ydlidar/ydlidar_node" "/home/guyechan/slam_ws/build/ydlidar/ydlidar_client" "TARGETS" "ydlidar_node" "ydlidar_client" "DESTINATION" "lib/ydlidar")

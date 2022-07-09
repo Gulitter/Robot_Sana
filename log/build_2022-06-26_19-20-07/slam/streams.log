@@ -1,0 +1,20 @@
+[0.389s] Invoking command in '/home/guyechan/slam_ws/src/slam': PYTHONPATH=/home/guyechan/slam_ws/build/slam/prefix_override:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/slam build --build-base /home/guyechan/slam_ws/build/slam/build install --record /home/guyechan/slam_ws/build/slam/install.log --single-version-externally-managed
+[0.518s] running egg_info
+[0.518s] writing ../../build/slam/slam.egg-info/PKG-INFO
+[0.518s] writing dependency_links to ../../build/slam/slam.egg-info/dependency_links.txt
+[0.518s] writing entry points to ../../build/slam/slam.egg-info/entry_points.txt
+[0.518s] writing requirements to ../../build/slam/slam.egg-info/requires.txt
+[0.518s] writing top-level names to ../../build/slam/slam.egg-info/top_level.txt
+[0.538s] reading manifest file '../../build/slam/slam.egg-info/SOURCES.txt'
+[0.538s] writing manifest file '../../build/slam/slam.egg-info/SOURCES.txt'
+[0.538s] running build
+[0.538s] running build_py
+[0.538s] running install
+[0.539s] running install_lib
+[0.540s] running install_data
+[0.540s] running install_egg_info
+[0.541s] removing '/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages/slam-0.0.1-py3.8.egg-info' (and everything under it)
+[0.541s] Copying ../../build/slam/slam.egg-info to /home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages/slam-0.0.1-py3.8.egg-info
+[0.541s] running install_scripts
+[0.551s] writing list of installed files to '/home/guyechan/slam_ws/build/slam/install.log'
+[0.562s] Invoked command in '/home/guyechan/slam_ws/src/slam' returned '0': PYTHONPATH=/home/guyechan/slam_ws/build/slam/prefix_override:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/slam build --build-base /home/guyechan/slam_ws/build/slam/build install --record /home/guyechan/slam_ws/build/slam/install.log --single-version-externally-managed

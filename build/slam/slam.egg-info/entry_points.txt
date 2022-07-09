@@ -1,0 +1,3 @@
+[console_scripts]
+main = slam.main:main
+

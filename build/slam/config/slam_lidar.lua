@@ -1,0 +1,1 @@
+/home/guyechan/slam_ws/src/slam/config/slam_lidar.lua

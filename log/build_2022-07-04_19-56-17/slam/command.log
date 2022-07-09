@@ -1,0 +1,1 @@
+Invoking command in '/home/guyechan/slam_ws/build/slam': PYTHONPATH=/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages: /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/slam --editable --build-directory /home/guyechan/slam_ws/build/slam/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/slam

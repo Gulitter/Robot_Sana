@@ -1,0 +1,5 @@
+odom publsh 할 때 quaternion_from_euler 이용해서 사분면 값에 제대로 된 값을 전달해줘야 실행됨. 
+
+submap_slices and last_frame_id is empty 해결.
+
+navigation만 만들면 될 듯.

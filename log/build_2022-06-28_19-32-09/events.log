@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000087] (slam) JobQueued: {'identifier': 'slam', 'dependencies': OrderedDict()}
+[0.000329] (slam) JobStarted: {'identifier': 'slam'}
+[0.099480] (-) TimerEvent: {}
+[0.199764] (-) TimerEvent: {}
+[0.300046] (-) TimerEvent: {}
+[0.384879] (slam) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/guyechan/slam_ws/build/slam/build', '--no-deps', 'install_data'], 'cwd': '/home/guyechan/slam_ws/build/slam', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'guyechan', 'LC_TIME': 'ko_KR.UTF-8', 'SSH_AGENT_PID': '1622', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/guyechan', 'OLDPWD': '/home/guyechan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1325', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2994', '_colcon_cd_root': '/home/guyechan/autocar_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/guyechan/slam_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'guyechan', 'JOURNAL_STREAM': '8:54410', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'guyechan', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/guyechan/autocar_ws/install/rlautocar/share/rlautocar/models:/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/foxy/bin:/root/.local/bin:/home/guyechan/.local/bin:/usr/local/cuda-11.6/bin:/home/guyechan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Gulitter:@/tmp/.ICE-unix/1657,unix/Gulitter:/tmp/.ICE-unix/1657', 'INVOCATION_ID': 'c673d4bf076946e78e022625235a5044', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/guyechan/slam_ws/install/slam:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:eb71ba93-1467-41fc-aa01-f51d0d9580d4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/guyechan/slam_ws/build/slam', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/home/guyechan/autocar_ws/build/rlautocar:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/guyechan/slam_ws/build/slam/prefix_override:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/slam:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.400143] (-) TimerEvent: {}
+[0.500338] (-) TimerEvent: {}
+[0.523361] (slam) StdoutLine: {'line': b'running develop\n'}
+[0.600469] (-) TimerEvent: {}
+[0.605509] (slam) StdoutLine: {'line': b'running egg_info\n'}
+[0.605676] (slam) StdoutLine: {'line': b'creating slam.egg-info\n'}
+[0.605741] (slam) StdoutLine: {'line': b'writing slam.egg-info/PKG-INFO\n'}
+[0.605780] (slam) StdoutLine: {'line': b'writing dependency_links to slam.egg-info/dependency_links.txt\n'}
+[0.605815] (slam) StdoutLine: {'line': b'writing entry points to slam.egg-info/entry_points.txt\n'}
+[0.605849] (slam) StdoutLine: {'line': b'writing requirements to slam.egg-info/requires.txt\n'}
+[0.605883] (slam) StdoutLine: {'line': b'writing top-level names to slam.egg-info/top_level.txt\n'}
+[0.606399] (slam) StdoutLine: {'line': b"writing manifest file 'slam.egg-info/SOURCES.txt'\n"}
+[0.624869] (slam) StdoutLine: {'line': b"reading manifest file 'slam.egg-info/SOURCES.txt'\n"}
+[0.625304] (slam) StdoutLine: {'line': b"writing manifest file 'slam.egg-info/SOURCES.txt'\n"}
+[0.643446] (slam) StdoutLine: {'line': b'running build_ext\n'}
+[0.643615] (slam) StdoutLine: {'line': b'Creating /home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages/site.py\n'}
+[0.644687] (slam) StdoutLine: {'line': b'Creating /home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages/slam.egg-link (link to .)\n'}
+[0.645092] (slam) StdoutLine: {'line': b'\n'}
+[0.645159] (slam) StdoutLine: {'line': b'Installed /home/guyechan/slam_ws/build/slam\n'}
+[0.645203] (slam) StdoutLine: {'line': b'running install_data\n'}
+[0.645238] (slam) StdoutLine: {'line': b'creating /home/guyechan/slam_ws/install/slam/share/ament_index\n'}
+[0.645400] (slam) StdoutLine: {'line': b'creating /home/guyechan/slam_ws/install/slam/share/ament_index/resource_index\n'}
+[0.645454] (slam) StdoutLine: {'line': b'creating /home/guyechan/slam_ws/install/slam/share/ament_index/resource_index/packages\n'}
+[0.645493] (slam) StdoutLine: {'line': b'copying resource/slam -> /home/guyechan/slam_ws/install/slam/share/ament_index/resource_index/packages\n'}
+[0.645528] (slam) StdoutLine: {'line': b'copying package.xml -> /home/guyechan/slam_ws/install/slam/share/slam\n'}
+[0.645567] (slam) StdoutLine: {'line': b'creating /home/guyechan/slam_ws/install/slam/share/slam/launch\n'}
+[0.645605] (slam) StdoutLine: {'line': b'copying launch/occupancy_grid.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch\n'}
+[0.645643] (slam) StdoutLine: {'line': b'copying launch/slam_state_publisher.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch\n'}
+[0.645800] (slam) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch\n'}
+[0.645951] (slam) StdoutLine: {'line': b'copying launch/cartographer.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch\n'}
+[0.646005] (slam) StdoutLine: {'line': b'copying launch/rviz.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch\n'}
+[0.646042] (slam) StdoutLine: {'line': b'copying launch/cartographer_rviz.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch\n'}
+[0.646078] (slam) StdoutLine: {'line': b'creating /home/guyechan/slam_ws/install/slam/share/slam/config\n'}
+[0.646114] (slam) StdoutLine: {'line': b'copying config/slam_lidar.lua -> /home/guyechan/slam_ws/install/slam/share/slam/config\n'}
+[0.646152] (slam) StdoutLine: {'line': b'creating /home/guyechan/slam_ws/install/slam/share/slam/rviz\n'}
+[0.646190] (slam) StdoutLine: {'line': b'copying rviz/slam.rviz -> /home/guyechan/slam_ws/install/slam/share/slam/rviz\n'}
+[0.646232] (slam) StdoutLine: {'line': b'copying rviz/slam_cartographer.rviz -> /home/guyechan/slam_ws/install/slam/share/slam/rviz\n'}
+[0.646271] (slam) StdoutLine: {'line': b'creating /home/guyechan/slam_ws/install/slam/share/slam/urdf\n'}
+[0.646307] (slam) StdoutLine: {'line': b'copying urdf/hardware.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf\n'}
+[0.646346] (slam) StdoutLine: {'line': b'copying urdf/rlautocar.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf\n'}
+[0.646384] (slam) StdoutLine: {'line': b'copying urdf/slam (\xec\x82\xac\xeb\xb3\xb8).urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf\n'}
+[0.646423] (slam) StdoutLine: {'line': b'copying urdf/slam2.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf\n'}
+[0.646461] (slam) StdoutLine: {'line': b'copying urdf/slam.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf\n'}
+[0.646512] (slam) StdoutLine: {'line': b'copying urdf/hardware1.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf\n'}
+[0.646546] (slam) StdoutLine: {'line': b'creating /home/guyechan/slam_ws/install/slam/share/slam/meshes\n'}
+[0.646580] (slam) StdoutLine: {'line': b'copying meshes/left_link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes\n'}
+[0.646616] (slam) StdoutLine: {'line': b'copying meshes/left_Link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes\n'}
+[0.646653] (slam) StdoutLine: {'line': b'copying meshes/base_link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes\n'}
+[0.646704] (slam) StdoutLine: {'line': b'copying meshes/right_Link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes\n'}
+[0.646756] (slam) StdoutLine: {'line': b'copying meshes/lidar_link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes\n'}
+[0.646834] (slam) StdoutLine: {'line': b'copying meshes/lidar_Link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes\n'}
+[0.646965] (slam) StdoutLine: {'line': b'copying meshes/right_link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes\n'}
+[0.647090] (slam) StdoutLine: {'line': b'creating /home/guyechan/slam_ws/install/slam/share/slam/worlds\n'}
+[0.647191] (slam) StdoutLine: {'line': b'copying worlds/empty.world -> /home/guyechan/slam_ws/install/slam/share/slam/worlds\n'}
+[0.647230] (slam) StdoutLine: {'line': b'creating /home/guyechan/slam_ws/install/slam/share/slam/models\n'}
+[0.647282] (slam) StdoutLine: {'line': b'copying worlds/empty.world -> /home/guyechan/slam_ws/install/slam/share/slam/models\n'}
+[0.660759] (slam) CommandEnded: {'returncode': 0}
+[0.670968] (slam) JobEnded: {'identifier': 'slam', 'rc': 0}
+[0.671314] (-) EventReactorShutdown: {}

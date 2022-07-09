@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="slam">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.0107930337787221 -4.17811398268908E-05 0.342180321915431"
+        rpy="0 0 0" />
+      <mass
+        value="6.28339377848197" />
+      <inertia
+        ixx="0.202791769289639"
+        ixy="6.21302361075846E-10"
+        ixz="-2.25777226273672E-08"
+        iyy="0.19227279401554"
+        iyz="-2.35243191053513E-17"
+        izz="0.0461014447332229" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="install/slam/share/slam/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="install/slam/share/slam/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="left_link">
+    <inertial>
+      <origin
+        xyz="0 -0.0205 4.44089209850063E-16"
+        rpy="0 0 0" />
+      <mass
+        value="30.822293027521207" />
+      <inertia
+        ixx="0.00143414756441595"
+        ixy="1.15672792947902E-19"
+        ixz="-7.41597516465037E-20"
+        iyy="0.00263791603228804"
+        iyz="2.6024982587455E-19"
+        izz="0.00143414756441595" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="install/slam/share/slam/meshes/left_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="install/slam/share/slam/meshes/left_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_wheel"
+    type="continuous">
+    <origin
+      xyz="0 0.213 0.035"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      effort="1"
+      velocity="10" />
+  </joint>
+  <link
+    name="right_link">
+    <inertial>
+      <origin
+        xyz="-2.77555756156289E-17 0.0205000000000002 0"
+        rpy="0 0 0" />
+      <mass
+        value="30.822293027521207" />
+      <inertia
+        ixx="0.00143414756441595"
+        ixy="-1.83047349205601E-20"
+        ixz="-2.31122203219551E-20"
+        iyy="0.00263791603228803"
+        iyz="-2.14336241342581E-19"
+        izz="0.00143414756441595" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="install/slam/share/slam/meshes/right_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="install/slam/share/slam/meshes/right_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_wheel"
+    type="continuous">
+    <origin
+      xyz="0 -0.213 0.035"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_link" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      effort="1"
+      velocity="10" />
+  </joint>
+  <link
+    name="lidar_link">
+    <inertial>
+      <origin
+        xyz="0 0 -0.0205000000000002"
+        rpy="0 0 0" />
+      <mass
+        value="0.166931667241147" />
+      <inertia
+        ixx="7.74702045721622E-05"
+        ixy="-9.02779661431517E-36"
+        ixz="-4.36228625422245E-21"
+        iyy="7.74702045721621E-05"
+        iyz="-2.74204729277547E-20"
+        izz="0.000108171720372263" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="install/slam/share/slam/meshes/lidar_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="install/slam/share/slam/meshes/lidar_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lidar_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0.856"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidar_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

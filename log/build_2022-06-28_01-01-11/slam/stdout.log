@@ -1,0 +1,40 @@
+running develop
+running egg_info
+creating slam.egg-info
+writing slam.egg-info/PKG-INFO
+writing dependency_links to slam.egg-info/dependency_links.txt
+writing entry points to slam.egg-info/entry_points.txt
+writing requirements to slam.egg-info/requires.txt
+writing top-level names to slam.egg-info/top_level.txt
+writing manifest file 'slam.egg-info/SOURCES.txt'
+reading manifest file 'slam.egg-info/SOURCES.txt'
+writing manifest file 'slam.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages/site.py
+Creating /home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages/slam.egg-link (link to .)
+
+Installed /home/guyechan/slam_ws/build/slam
+running install_data
+creating /home/guyechan/slam_ws/install/slam/share/ament_index
+creating /home/guyechan/slam_ws/install/slam/share/ament_index/resource_index
+creating /home/guyechan/slam_ws/install/slam/share/ament_index/resource_index/packages
+copying resource/slam -> /home/guyechan/slam_ws/install/slam/share/ament_index/resource_index/packages
+copying package.xml -> /home/guyechan/slam_ws/install/slam/share/slam
+creating /home/guyechan/slam_ws/install/slam/share/slam/launch
+copying launch/occupancy_grid.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+copying launch/slam_state_publisher.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+copying launch/cartographer.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+copying launch/rviz.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+copying launch/cartographer_rviz.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+creating /home/guyechan/slam_ws/install/slam/share/slam/config
+copying config/slam_lidar.lua -> /home/guyechan/slam_ws/install/slam/share/slam/config
+creating /home/guyechan/slam_ws/install/slam/share/slam/rviz
+creating /home/guyechan/slam_ws/install/slam/share/slam/urdf
+copying urdf/hardware.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf
+copying urdf/rlautocar.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf
+copying urdf/hardware1.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf
+creating /home/guyechan/slam_ws/install/slam/share/slam/meshes
+copying meshes/left_Link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+copying meshes/base_link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+copying meshes/right_Link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+copying meshes/lidar_Link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes

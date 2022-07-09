@@ -1,0 +1,6 @@
+Invoking command in '/home/guyechan/slam_ws/build/ydlidar': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake /home/guyechan/slam_ws/src/ydlidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/guyechan/slam_ws/install/ydlidar
+Invoked command in '/home/guyechan/slam_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake /home/guyechan/slam_ws/src/ydlidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/guyechan/slam_ws/install/ydlidar
+Invoking command in '/home/guyechan/slam_ws/build/ydlidar': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --build /home/guyechan/slam_ws/build/ydlidar -- -j16 -l16
+Invoked command in '/home/guyechan/slam_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --build /home/guyechan/slam_ws/build/ydlidar -- -j16 -l16
+Invoking command in '/home/guyechan/slam_ws/build/ydlidar': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --install /home/guyechan/slam_ws/build/ydlidar
+Invoked command in '/home/guyechan/slam_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --install /home/guyechan/slam_ws/build/ydlidar

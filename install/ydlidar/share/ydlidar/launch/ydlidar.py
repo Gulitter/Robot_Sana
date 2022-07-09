@@ -1,0 +1,1 @@
+/home/guyechan/slam_ws/src/ydlidar_ros2/launch/ydlidar.py

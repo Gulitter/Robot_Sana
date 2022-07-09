@@ -1,0 +1,31 @@
+cartograph가 라이다 센서 정보와 엔코더 정보 or imu 정보를 이용해서 맵을 만들어주는 패키지.
+-종속 occupancy_grid grid만드는 듯
+
+
+cartographer_rviz rviz 실행.
+
+
+slam_state_publisher 로봇 소환
+
+gazebo는 urdf를 install 경로, 
+rviz2는 urdf를 package:// 경로로 읽는듯 (topic에 robot description을 받아줘야됨.)
+
+
+robot state publisher 를 뿌리면 로봇 urdf가 뿌려지고, joint는 뿌려지지 않는다.
+
+joint state publisher 를 뿌리면 urdf에서 joint로 표현된 urdf가 뿌려질 수 있다.
+
+ros2 run slam main // odom 및 모터제어 및 각종 pub sub 받을 예정
+
+ros2 launch ydlidar ydlidar.launch.py
+
+ros2 launch slam salm_robot_state.launch.py
+
+ros2 launch slam cartographer.launch.py
+
+ros2 launch slam cartographer_rviz.launch.py
+
+ros2 run nav2_map_server map_saver_cli -f <map 이름>
+
+ros2 launch slam navigation2.launch.py map:=/home/guyechan/slam_ws/src/slam/map/maze.yaml
+

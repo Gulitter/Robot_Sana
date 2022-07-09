@@ -1,0 +1,67 @@
+[0.162s] Invoking command in '/home/guyechan/slam_ws/build/ydlidar': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --build /home/guyechan/slam_ws/build/ydlidar -- -j16 -l16
+[0.183s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.202s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.326s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.330s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.355s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.357s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.446s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.479s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.568s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.636s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[0.681s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.723s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.734s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.734s] -- Configured cppcheck include dirs: /home/guyechan/slam_ws/src/ydlidar_ros2/src;/home/guyechan/slam_ws/src/ydlidar_ros2/sdk/include;/home/guyechan/slam_ws/src/ydlidar_ros2/sdk/src
+[0.734s] -- Configured cppcheck exclude dirs and/or files: 
+[0.742s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.742s] -- Configured cpplint exclude dirs and/or files: 
+[0.744s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.746s] -- Added test 'lint_cmake' to check CMake code style
+[0.748s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.757s] -- Added test 'uncrustify' to check C / C++ code style
+[0.757s] -- Configured uncrustify additional arguments: 
+[0.758s] -- Added test 'xmllint' to check XML markup files
+[0.760s] -- Configuring done
+[0.769s] -- Generating done
+[0.770s] -- Build files have been written to: /home/guyechan/slam_ws/build/ydlidar
+[0.797s] [  9%] [32mBuilding CXX object CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o[0m
+[0.798s] [ 18%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o[0m
+[0.798s] [ 27%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o[0m
+[0.798s] [ 36%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o[0m
+[0.799s] [ 45%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o[0m
+[0.799s] [ 54%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/list_ports_linux.cpp.o[0m
+[0.800s] [ 63%] [32mBuilding C object CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o[0m
+[0.800s] [ 72%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o[0m
+[0.800s] [ 81%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o[0m
+[2.738s] [ 90%] [32m[1mLinking CXX executable ydlidar_node[0m
+[2.854s] [ 90%] Built target ydlidar_node
+[3.660s] [100%] [32m[1mLinking CXX executable ydlidar_client[0m
+[3.792s] [100%] Built target ydlidar_client
+[3.799s] Invoked command in '/home/guyechan/slam_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --build /home/guyechan/slam_ws/build/ydlidar -- -j16 -l16
+[3.835s] Invoking command in '/home/guyechan/slam_ws/build/ydlidar': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --install /home/guyechan/slam_ws/build/ydlidar
+[3.840s] -- Install configuration: ""
+[3.840s] -- Execute custom install script
+[3.840s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+[3.841s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+[3.841s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+[3.841s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+[3.841s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+[3.841s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+[3.841s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[3.841s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[3.842s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[3.842s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[3.842s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/environment/path.sh
+[3.842s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+[3.842s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/local_setup.bash
+[3.842s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/local_setup.sh
+[3.842s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+[3.842s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+[3.843s] -- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.dsv
+[3.849s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[3.849s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[3.849s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[3.849s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.xml
+[3.852s] Invoked command in '/home/guyechan/slam_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --install /home/guyechan/slam_ws/build/ydlidar

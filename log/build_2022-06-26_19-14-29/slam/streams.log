@@ -1,0 +1,25 @@
+[0.385s] Invoking command in '/home/guyechan/slam_ws/src/slam': PYTHONPATH=/home/guyechan/slam_ws/build/slam/prefix_override:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/slam build --build-base /home/guyechan/slam_ws/build/slam/build install --record /home/guyechan/slam_ws/build/slam/install.log --single-version-externally-managed
+[0.515s] running egg_info
+[0.515s] writing ../../build/slam/slam.egg-info/PKG-INFO
+[0.515s] writing dependency_links to ../../build/slam/slam.egg-info/dependency_links.txt
+[0.515s] writing entry points to ../../build/slam/slam.egg-info/entry_points.txt
+[0.515s] writing requirements to ../../build/slam/slam.egg-info/requires.txt
+[0.515s] writing top-level names to ../../build/slam/slam.egg-info/top_level.txt
+[0.535s] reading manifest file '../../build/slam/slam.egg-info/SOURCES.txt'
+[0.535s] writing manifest file '../../build/slam/slam.egg-info/SOURCES.txt'
+[0.535s] running build
+[0.535s] running build_py
+[0.536s] running install
+[0.536s] running install_lib
+[0.537s] running install_data
+[0.537s] creating /home/guyechan/slam_ws/install/slam/share/slam/launch
+[0.537s] copying launch/occupancy_grid.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+[0.537s] copying launch/cartographer.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+[0.537s] creating /home/guyechan/slam_ws/install/slam/share/slam/config
+[0.537s] copying config/slam_ladar.lua -> /home/guyechan/slam_ws/install/slam/share/slam/config
+[0.537s] running install_egg_info
+[0.538s] removing '/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages/slam-0.0.0-py3.8.egg-info' (and everything under it)
+[0.538s] Copying ../../build/slam/slam.egg-info to /home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages/slam-0.0.0-py3.8.egg-info
+[0.538s] running install_scripts
+[0.548s] writing list of installed files to '/home/guyechan/slam_ws/build/slam/install.log'
+[0.559s] Invoked command in '/home/guyechan/slam_ws/src/slam' returned '0': PYTHONPATH=/home/guyechan/slam_ws/build/slam/prefix_override:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/slam build --build-base /home/guyechan/slam_ws/build/slam/build install --record /home/guyechan/slam_ws/build/slam/install.log --single-version-externally-managed

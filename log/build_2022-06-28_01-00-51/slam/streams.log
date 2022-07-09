@@ -1,0 +1,19 @@
+[0.413s] Invoking command in '/home/guyechan/slam_ws/build/slam': PYTHONPATH=/home/guyechan/slam_ws/build/slam/prefix_override:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/guyechan/slam_ws/build/slam/build --no-deps install_data
+[0.556s] running develop
+[0.639s] running egg_info
+[0.639s] writing slam.egg-info/PKG-INFO
+[0.639s] writing dependency_links to slam.egg-info/dependency_links.txt
+[0.639s] writing entry points to slam.egg-info/entry_points.txt
+[0.640s] writing requirements to slam.egg-info/requires.txt
+[0.640s] writing top-level names to slam.egg-info/top_level.txt
+[0.659s] reading manifest file 'slam.egg-info/SOURCES.txt'
+[0.659s] writing manifest file 'slam.egg-info/SOURCES.txt'
+[0.677s] running build_ext
+[0.677s] Creating /home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages/slam.egg-link (link to .)
+[0.678s] 
+[0.678s] Installed /home/guyechan/slam_ws/build/slam
+[0.678s] running install_data
+[0.678s] copying launch/rviz.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+[0.678s] copying urdf/hardware1.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf
+[0.678s] error: can't copy 'meshes/link_BL.STL': doesn't exist or not a regular file
+[0.692s] Invoked command in '/home/guyechan/slam_ws/build/slam' returned '1': PYTHONPATH=/home/guyechan/slam_ws/build/slam/prefix_override:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/guyechan/slam_ws/build/slam/build --no-deps install_data
