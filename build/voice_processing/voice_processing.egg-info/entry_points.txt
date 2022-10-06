@@ -1,0 +1,6 @@
+[console_scripts]
+hotword = voice_processing.hotword:main
+intent = voice_processing.intent:main
+stt = voice_processing.stt:main
+tts = voice_processing.tts:main
+

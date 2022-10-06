@@ -1,0 +1,16 @@
+[0.157s] Invoking command in '/home/guyechan/slam_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --build /home/guyechan/slam_ws/build/ydlidar -- -j16 -l16
+[0.184s] [35m[1mScanning dependencies of target ydlidar_client[0m
+[0.185s] [35m[1mScanning dependencies of target ydlidar_node[0m
+[0.227s] [ 18%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/list_ports_linux.cpp.o[0m
+[0.228s] [ 18%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o[0m
+[0.228s] [ 27%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o[0m
+[0.228s] [ 36%] [32mBuilding CXX object CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o[0m
+[0.229s] [ 45%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o[0m
+[0.229s] [ 54%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o[0m
+[0.229s] [ 63%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o[0m
+[0.229s] [ 72%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o[0m
+[0.230s] [ 81%] [32mBuilding C object CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o[0m
+[2.183s] [ 90%] [32m[1mLinking CXX executable ydlidar_node[0m
+[2.308s] [ 90%] Built target ydlidar_node
+[3.020s] [100%] [32m[1mLinking CXX executable ydlidar_client[0m
+[3.151s] [100%] Built target ydlidar_client

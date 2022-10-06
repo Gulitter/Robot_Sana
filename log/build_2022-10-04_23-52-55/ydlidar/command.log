@@ -1,0 +1,1 @@
+Invoking command in '/home/guyechan/slam_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake /home/guyechan/slam_ws/src/ydlidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/guyechan/slam_ws/install/ydlidar

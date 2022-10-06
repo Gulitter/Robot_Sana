@@ -1,0 +1,3 @@
+[0.156s] Invoking command in '/home/guyechan/slam_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --build /home/guyechan/slam_ws/build/ydlidar -- -j16 -l16
+[0.222s] [ 45%] Built target ydlidar_client
+[0.222s] [100%] Built target ydlidar_node

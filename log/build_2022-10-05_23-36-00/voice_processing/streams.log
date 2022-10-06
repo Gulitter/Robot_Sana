@@ -1,0 +1,35 @@
+[0.621s] Invoking command in '/home/guyechan/slam_ws/build/voice_processing': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/sana_msgs:/home/guyechan/slam_ws/install/ydlidar LD_LIBRARY_PATH=/home/guyechan/slam_ws/install/sana_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:/home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/yolov3:/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/voice_processing:/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/slam:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/voice_processing --editable --build-directory /home/guyechan/slam_ws/build/voice_processing/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/voice_processing
+[0.774s] running develop
+[0.866s] running egg_info
+[0.866s] creating voice_processing.egg-info
+[0.866s] writing voice_processing.egg-info/PKG-INFO
+[0.866s] writing dependency_links to voice_processing.egg-info/dependency_links.txt
+[0.866s] writing entry points to voice_processing.egg-info/entry_points.txt
+[0.866s] writing requirements to voice_processing.egg-info/requires.txt
+[0.866s] writing top-level names to voice_processing.egg-info/top_level.txt
+[0.867s] writing manifest file 'voice_processing.egg-info/SOURCES.txt'
+[0.887s] reading manifest file 'voice_processing.egg-info/SOURCES.txt'
+[0.887s] writing manifest file 'voice_processing.egg-info/SOURCES.txt'
+[0.907s] running build_ext
+[0.907s] Creating /home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages/site.py
+[0.908s] Creating /home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages/voice-processing.egg-link (link to .)
+[0.909s] Installing hotword script to /home/guyechan/slam_ws/install/voice_processing/lib/voice_processing
+[0.909s] Installing intent script to /home/guyechan/slam_ws/install/voice_processing/lib/voice_processing
+[0.909s] Installing stt script to /home/guyechan/slam_ws/install/voice_processing/lib/voice_processing
+[0.909s] Installing tts script to /home/guyechan/slam_ws/install/voice_processing/lib/voice_processing
+[0.909s] 
+[0.909s] Installed /home/guyechan/slam_ws/build/voice_processing
+[0.909s] running install_data
+[0.909s] creating /home/guyechan/slam_ws/install/voice_processing/share/ament_index
+[0.909s] creating /home/guyechan/slam_ws/install/voice_processing/share/ament_index/resource_index
+[0.909s] creating /home/guyechan/slam_ws/install/voice_processing/share/ament_index/resource_index/packages
+[0.909s] copying resource/voice_processing -> /home/guyechan/slam_ws/install/voice_processing/share/ament_index/resource_index/packages
+[0.909s] copying package.xml -> /home/guyechan/slam_ws/install/voice_processing/share/voice_processing
+[0.910s] creating /home/guyechan/slam_ws/install/voice_processing/share/voice_processing/launch
+[0.910s] creating /home/guyechan/slam_ws/install/voice_processing/share/voice_processing/voice
+[0.910s] creating /home/guyechan/slam_ws/install/voice_processing/share/voice_processing/config
+[0.910s] copying config/pro-masze-idwc-766df8ed87b0.json -> /home/guyechan/slam_ws/install/voice_processing/share/voice_processing/config
+[0.910s] creating /home/guyechan/slam_ws/install/voice_processing/share/voice_processing/model
+[0.910s] copying model/WWD2.h5 -> /home/guyechan/slam_ws/install/voice_processing/share/voice_processing/model
+[0.910s] copying model/WWD.h5 -> /home/guyechan/slam_ws/install/voice_processing/share/voice_processing/model
+[0.929s] Invoked command in '/home/guyechan/slam_ws/build/voice_processing' returned '0': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/sana_msgs:/home/guyechan/slam_ws/install/ydlidar LD_LIBRARY_PATH=/home/guyechan/slam_ws/install/sana_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:/home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/yolov3:/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/voice_processing:/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/slam:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/voice_processing --editable --build-directory /home/guyechan/slam_ws/build/voice_processing/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/voice_processing

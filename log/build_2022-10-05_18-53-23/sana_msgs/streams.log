@@ -1,0 +1,90 @@
+[0.027s] Invoking command in '/home/guyechan/slam_ws/build/sana_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/yolov3:/home/guyechan/slam_ws/install/voice_processing:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --build /home/guyechan/slam_ws/build/sana_msgs -- -j16 -l16
+[0.192s] [  3%] Built target sana_msgs__cpp
+[0.192s] [ 12%] Built target sana_msgs__rosidl_generator_c
+[0.192s] [ 51%] Built target sana_msgs__rosidl_typesupport_introspection_c
+[0.192s] [ 51%] Built target sana_msgs__rosidl_typesupport_introspection_cpp
+[0.192s] [ 51%] Built target sana_msgs__rosidl_typesupport_cpp
+[0.193s] [ 51%] Built target sana_msgs__rosidl_typesupport_c
+[0.193s] [ 61%] Built target sana_msgs__rosidl_typesupport_fastrtps_cpp
+[0.193s] [ 70%] Built target sana_msgs__rosidl_typesupport_fastrtps_c
+[0.193s] [ 70%] Built target sana_msgs
+[0.194s] [ 74%] Built target sana_msgs__py
+[0.194s] [ 80%] Built target sana_msgs__python
+[0.194s] [ 96%] Built target sana_msgs__rosidl_typesupport_introspection_c__pyext
+[0.194s] [ 96%] Built target sana_msgs__rosidl_typesupport_c__pyext
+[0.194s] [100%] Built target sana_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.196s] Invoked command in '/home/guyechan/slam_ws/build/sana_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/yolov3:/home/guyechan/slam_ws/install/voice_processing:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --build /home/guyechan/slam_ws/build/sana_msgs -- -j16 -l16
+[0.236s] Invoking command in '/home/guyechan/slam_ws/build/sana_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/yolov3:/home/guyechan/slam_ws/install/voice_processing:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --install /home/guyechan/slam_ws/build/sana_msgs
+[0.242s] -- Install configuration: ""
+[0.242s] -- Execute custom install script
+[0.242s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/ament_index/resource_index/rosidl_interfaces/sana_msgs
+[0.242s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/detail/sana__functions.h
+[0.243s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/detail/sana__struct.h
+[0.243s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/detail/sana__type_support.h
+[0.243s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.243s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/sana.h
+[0.243s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/environment/library_path.sh
+[0.243s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/environment/library_path.dsv
+[0.244s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/detail/sana__rosidl_typesupport_fastrtps_c.h
+[0.244s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.244s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/lib/libsana_msgs__rosidl_typesupport_fastrtps_c.so
+[0.244s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/detail/sana__rosidl_typesupport_fastrtps_cpp.hpp
+[0.244s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.244s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/lib/libsana_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.244s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/detail/sana__rosidl_typesupport_introspection_c.h
+[0.244s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.245s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/detail/sana__builder.hpp
+[0.245s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/detail/sana__struct.hpp
+[0.245s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/detail/sana__traits.hpp
+[0.245s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/sana.hpp
+[0.245s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/include/sana_msgs/msg/detail/sana__rosidl_typesupport_introspection_cpp.hpp
+[0.245s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/environment/pythonpath.sh
+[0.245s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/environment/pythonpath.dsv
+[0.246s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages/sana_msgs/__init__.py
+[0.246s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages/sana_msgs/msg/__init__.py
+[0.246s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages/sana_msgs/msg/_sana.py
+[0.246s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages/sana_msgs/sana_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.246s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages/sana_msgs/sana_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.247s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages/sana_msgs/sana_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.247s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/lib/libsana_msgs__python.so
+[0.247s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/msg/Sana.idl
+[0.247s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/msg/Sana.msg
+[0.247s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/ament_index/resource_index/package_run_dependencies/sana_msgs
+[0.247s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/ament_index/resource_index/parent_prefix_path/sana_msgs
+[0.247s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/environment/ament_prefix_path.sh
+[0.248s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/environment/ament_prefix_path.dsv
+[0.248s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/environment/path.sh
+[0.248s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/environment/path.dsv
+[0.248s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/local_setup.bash
+[0.248s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/local_setup.sh
+[0.248s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/local_setup.zsh
+[0.248s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/local_setup.dsv
+[0.248s] -- Symlinking: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/package.dsv
+[0.255s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/ament_index/resource_index/packages/sana_msgs
+[0.255s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/rosidl_cmake-extras.cmake
+[0.255s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.255s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.255s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.255s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.255s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.255s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.256s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/sana_msgsConfig.cmake
+[0.256s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/sana_msgsConfig-version.cmake
+[0.256s] -- Up-to-date symlink: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/package.xml
+[0.256s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/lib/libsana_msgs__rosidl_generator_c.so
+[0.256s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/lib/libsana_msgs__rosidl_typesupport_introspection_c.so
+[0.256s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/lib/libsana_msgs__rosidl_typesupport_c.so
+[0.256s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/lib/libsana_msgs__rosidl_typesupport_introspection_cpp.so
+[0.257s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/lib/libsana_msgs__rosidl_typesupport_cpp.so
+[0.282s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/sana_msgs__rosidl_generator_cExport.cmake
+[0.282s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/sana_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.282s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/sana_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.282s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/sana_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.282s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/sana_msgs__rosidl_typesupport_cExport.cmake
+[0.282s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/sana_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.283s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/sana_msgs__rosidl_generator_cppExport.cmake
+[0.283s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/sana_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.283s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/sana_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.283s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/sana_msgs__rosidl_typesupport_cppExport.cmake
+[0.283s] -- Up-to-date: /home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/cmake/sana_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.285s] Invoked command in '/home/guyechan/slam_ws/build/sana_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/yolov3:/home/guyechan/slam_ws/install/voice_processing:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --install /home/guyechan/slam_ws/build/sana_msgs

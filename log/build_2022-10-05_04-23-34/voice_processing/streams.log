@@ -1,0 +1,22 @@
+[0.791s] Invoking command in '/home/guyechan/slam_ws/build/voice_processing': PYTHONPATH=/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/voice_processing --editable --build-directory /home/guyechan/slam_ws/build/voice_processing/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/voice_processing
+[0.951s] running develop
+[1.048s] running egg_info
+[1.048s] writing voice_processing.egg-info/PKG-INFO
+[1.048s] writing dependency_links to voice_processing.egg-info/dependency_links.txt
+[1.048s] writing entry points to voice_processing.egg-info/entry_points.txt
+[1.048s] writing requirements to voice_processing.egg-info/requires.txt
+[1.048s] writing top-level names to voice_processing.egg-info/top_level.txt
+[1.069s] reading manifest file 'voice_processing.egg-info/SOURCES.txt'
+[1.070s] writing manifest file 'voice_processing.egg-info/SOURCES.txt'
+[1.090s] running build_ext
+[1.090s] Creating /home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages/voice-processing.egg-link (link to .)
+[1.091s] Installing hotword script to /home/guyechan/slam_ws/install/voice_processing/lib/voice_processing
+[1.091s] Installing intent script to /home/guyechan/slam_ws/install/voice_processing/lib/voice_processing
+[1.091s] Installing stt script to /home/guyechan/slam_ws/install/voice_processing/lib/voice_processing
+[1.091s] Installing tts script to /home/guyechan/slam_ws/install/voice_processing/lib/voice_processing
+[1.091s] 
+[1.091s] Installed /home/guyechan/slam_ws/build/voice_processing
+[1.091s] running install_data
+[1.091s] creating /home/guyechan/slam_ws/install/voice_processing/share/voice_processing/config
+[1.092s] copying config/pro-masze-idwc-766df8ed87b0.json -> /home/guyechan/slam_ws/install/voice_processing/share/voice_processing/config
+[1.113s] Invoked command in '/home/guyechan/slam_ws/build/voice_processing' returned '0': PYTHONPATH=/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/voice_processing --editable --build-directory /home/guyechan/slam_ws/build/voice_processing/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/voice_processing

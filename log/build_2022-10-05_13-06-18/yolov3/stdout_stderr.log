@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing yolov3.egg-info/PKG-INFO
+writing dependency_links to yolov3.egg-info/dependency_links.txt
+writing entry points to yolov3.egg-info/entry_points.txt
+writing requirements to yolov3.egg-info/requires.txt
+writing top-level names to yolov3.egg-info/top_level.txt
+reading manifest file 'yolov3.egg-info/SOURCES.txt'
+writing manifest file 'yolov3.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages/yolov3.egg-link (link to .)
+Installing yolov3 script to /home/guyechan/slam_ws/install/yolov3/lib/yolov3
+
+Installed /home/guyechan/slam_ws/build/yolov3
+running install_data
+copying package.xml -> /home/guyechan/slam_ws/install/yolov3/share/yolov3

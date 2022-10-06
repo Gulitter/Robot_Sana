@@ -1,0 +1,16 @@
+[0.633s] Invoking command in '/home/guyechan/slam_ws/build/yolov3': PYTHONPATH=/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/yolov3 --editable --build-directory /home/guyechan/slam_ws/build/yolov3/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/yolov3
+[0.802s] running develop
+[0.904s] running egg_info
+[0.904s] writing yolov3.egg-info/PKG-INFO
+[0.904s] writing dependency_links to yolov3.egg-info/dependency_links.txt
+[0.904s] writing entry points to yolov3.egg-info/entry_points.txt
+[0.904s] writing requirements to yolov3.egg-info/requires.txt
+[0.904s] writing top-level names to yolov3.egg-info/top_level.txt
+[0.926s] reading manifest file 'yolov3.egg-info/SOURCES.txt'
+[0.926s] writing manifest file 'yolov3.egg-info/SOURCES.txt'
+[0.948s] running build_ext
+[0.948s] Creating /home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages/yolov3.egg-link (link to .)
+[0.949s] Installing yolov3 script to /home/guyechan/slam_ws/install/yolov3/lib/yolov3
+[0.949s] 
+[0.949s] Installed /home/guyechan/slam_ws/build/yolov3
+[0.949s] running install_data

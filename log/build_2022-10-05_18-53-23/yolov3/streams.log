@@ -1,0 +1,17 @@
+[0.595s] Invoking command in '/home/guyechan/slam_ws/build/yolov3': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/sana_msgs:/home/guyechan/slam_ws/install/ydlidar LD_LIBRARY_PATH=/home/guyechan/slam_ws/install/sana_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:/home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/yolov3:/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/voice_processing:/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/slam:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/yolov3 --editable --build-directory /home/guyechan/slam_ws/build/yolov3/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/yolov3
+[0.749s] running develop
+[0.841s] running egg_info
+[0.841s] writing yolov3.egg-info/PKG-INFO
+[0.842s] writing dependency_links to yolov3.egg-info/dependency_links.txt
+[0.842s] writing entry points to yolov3.egg-info/entry_points.txt
+[0.842s] writing requirements to yolov3.egg-info/requires.txt
+[0.842s] writing top-level names to yolov3.egg-info/top_level.txt
+[0.861s] reading manifest file 'yolov3.egg-info/SOURCES.txt'
+[0.862s] writing manifest file 'yolov3.egg-info/SOURCES.txt'
+[0.881s] running build_ext
+[0.881s] Creating /home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages/yolov3.egg-link (link to .)
+[0.882s] Installing yolov3 script to /home/guyechan/slam_ws/install/yolov3/lib/yolov3
+[0.882s] 
+[0.882s] Installed /home/guyechan/slam_ws/build/yolov3
+[0.882s] running install_data
+[0.902s] Invoked command in '/home/guyechan/slam_ws/build/yolov3' returned '0': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/sana_msgs:/home/guyechan/slam_ws/install/ydlidar LD_LIBRARY_PATH=/home/guyechan/slam_ws/install/sana_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:/home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/yolov3:/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/voice_processing:/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/slam:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/yolov3 --editable --build-directory /home/guyechan/slam_ws/build/yolov3/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/yolov3

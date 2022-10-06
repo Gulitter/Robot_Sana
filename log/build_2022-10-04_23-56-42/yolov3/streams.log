@@ -1,0 +1,24 @@
+[0.568s] Invoking command in '/home/guyechan/slam_ws/build/yolov3': PYTHONPATH=/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/yolov3 --editable --build-directory /home/guyechan/slam_ws/build/yolov3/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/yolov3
+[0.711s] running develop
+[0.798s] running egg_info
+[0.798s] creating yolov3.egg-info
+[0.798s] writing yolov3.egg-info/PKG-INFO
+[0.798s] writing dependency_links to yolov3.egg-info/dependency_links.txt
+[0.798s] writing entry points to yolov3.egg-info/entry_points.txt
+[0.798s] writing requirements to yolov3.egg-info/requires.txt
+[0.798s] writing top-level names to yolov3.egg-info/top_level.txt
+[0.799s] writing manifest file 'yolov3.egg-info/SOURCES.txt'
+[0.819s] reading manifest file 'yolov3.egg-info/SOURCES.txt'
+[0.819s] writing manifest file 'yolov3.egg-info/SOURCES.txt'
+[0.839s] running build_ext
+[0.839s] Creating /home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages/site.py
+[0.840s] Creating /home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages/yolov3.egg-link (link to .)
+[0.841s] 
+[0.841s] Installed /home/guyechan/slam_ws/build/yolov3
+[0.841s] running install_data
+[0.841s] creating /home/guyechan/slam_ws/install/yolov3/share/ament_index
+[0.841s] creating /home/guyechan/slam_ws/install/yolov3/share/ament_index/resource_index
+[0.841s] creating /home/guyechan/slam_ws/install/yolov3/share/ament_index/resource_index/packages
+[0.841s] copying resource/yolov3 -> /home/guyechan/slam_ws/install/yolov3/share/ament_index/resource_index/packages
+[0.841s] copying package.xml -> /home/guyechan/slam_ws/install/yolov3/share/yolov3
+[0.862s] Invoked command in '/home/guyechan/slam_ws/build/yolov3' returned '0': PYTHONPATH=/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/yolov3 --editable --build-directory /home/guyechan/slam_ws/build/yolov3/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/yolov3

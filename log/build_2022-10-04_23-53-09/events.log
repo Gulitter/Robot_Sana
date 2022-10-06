@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (slam) JobQueued: {'identifier': 'slam', 'dependencies': OrderedDict()}
+[0.000125] (ydlidar) JobQueued: {'identifier': 'ydlidar', 'dependencies': OrderedDict()}
+[0.000136] (yolov3) JobQueued: {'identifier': 'yolov3', 'dependencies': OrderedDict()}
+[0.000145] (slam) JobStarted: {'identifier': 'slam'}
+[0.007852] (ydlidar) JobStarted: {'identifier': 'ydlidar'}
+[0.013151] (yolov3) JobStarted: {'identifier': 'yolov3'}
+[0.099119] (-) TimerEvent: {}
+[0.164519] (ydlidar) JobProgress: {'identifier': 'ydlidar', 'progress': 'cmake'}
+[0.164585] (ydlidar) Command: {'cmd': ['/usr/bin/cmake', '/home/guyechan/slam_ws/src/ydlidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/guyechan/slam_ws/install/ydlidar'], 'cwd': '/home/guyechan/slam_ws/build/ydlidar', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'guyechan'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1757'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/guyechan/autocar_ws/build/rlautocar:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/guyechan/autocar_ws/build/rlautocar:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/guyechan/autocar_ws/build/rlautocar:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/guyechan'), ('OLDPWD', '/home/guyechan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1474'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3944'), ('_colcon_cd_root', '/home/guyechan/autocar_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/guyechan/slam_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'guyechan'), ('JOURNAL_STREAM', '8:51506'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'guyechan'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/guyechan/autocar_ws/install/rlautocar/share/rlautocar/models:/usr/share/gazebo-11/models:/home/guyechan/autocar_ws/install/rlautocar/share/rlautocar/models:/usr/share/gazebo-11/models:/home/guyechan/autocar_ws/install/rlautocar/share/rlautocar/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/root/.local/bin:/home/guyechan/.local/bin:/usr/local/cuda-11.6/bin:/root/.local/bin:/home/guyechan/.local/bin:/usr/local/cuda-11.6/bin:/opt/ros/foxy/bin:/root/.local/bin:/home/guyechan/.local/bin:/usr/local/cuda-11.6/bin:/home/guyechan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Gulitter:@/tmp/.ICE-unix/1791,unix/Gulitter:/tmp/.ICE-unix/1791'), ('INVOCATION_ID', '92776d02914c43a8bfc4005f3402111e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/guyechan/slam_ws/install/ydlidar:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:603ca142-a131-4e48-ab59-82219505ce7f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/guyechan/slam_ws/build/ydlidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/guyechan/autocar_ws/build/rlautocar:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/guyechan/autocar_ws/build/rlautocar:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/guyechan/autocar_ws/build/rlautocar:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/guyechan/slam_ws/build/slam:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/guyechan/slam_ws/install/ydlidar:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy')]), 'shell': False}
+[0.199237] (-) TimerEvent: {}
+[0.299550] (-) TimerEvent: {}
+[0.365653] (yolov3) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 281, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.8/subprocess.py", line 516, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', "import sys;from setuptools.extern.packaging.specifiers import SpecifierSet;from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))"]\' returned non-zero exit status 1.\n'}
+[0.367479] (yolov3) JobEnded: {'identifier': 'yolov3', 'rc': 1}
+[0.367674] (ydlidar) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.367732] (ydlidar) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.367768] (ydlidar) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.367802] (ydlidar) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.367834] (ydlidar) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.367866] (ydlidar) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.367898] (ydlidar) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.367929] (ydlidar) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.367961] (ydlidar) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.367993] (slam) JobEnded: {'identifier': 'slam', 'rc': 'SIGINT'}
+[0.379958] (ydlidar) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.380643] (ydlidar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399685] (-) TimerEvent: {}
+[0.440399] (ydlidar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.447431] (ydlidar) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.447703] (ydlidar) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.449084] (ydlidar) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.463943] (ydlidar) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.464022] (ydlidar) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.499759] (-) TimerEvent: {}
+[0.576290] (ydlidar) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.590612] (ydlidar) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.599842] (-) TimerEvent: {}
+[0.618205] (ydlidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.622239] (ydlidar) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.668664] (ydlidar) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.688720] (ydlidar) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.699975] (-) TimerEvent: {}
+[0.736469] (ydlidar) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.770187] (ydlidar) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.770947] (ydlidar) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.771529] (ydlidar) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800123] (-) TimerEvent: {}
+[0.832277] (ydlidar) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.832499] (ydlidar) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.898332] (ydlidar) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.898481] (ydlidar) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.900185] (-) TimerEvent: {}
+[0.949875] (ydlidar) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.950034] (ydlidar) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.000332] (-) TimerEvent: {}
+[1.003962] (ydlidar) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.005185] (ydlidar) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.100465] (-) TimerEvent: {}
+[1.103260] (ydlidar) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.174468] (ydlidar) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[1.200595] (-) TimerEvent: {}
+[1.221614] (ydlidar) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.269015] (ydlidar) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.277571] (ydlidar) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.277900] (ydlidar) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/guyechan/slam_ws/src/ydlidar_ros2/src;/home/guyechan/slam_ws/src/ydlidar_ros2/sdk/include;/home/guyechan/slam_ws/src/ydlidar_ros2/sdk/src\n'}
+[1.277971] (ydlidar) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.286069] (ydlidar) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.286140] (ydlidar) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.287430] (ydlidar) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.289599] (ydlidar) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.290872] (ydlidar) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.298939] (ydlidar) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.299031] (ydlidar) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.300154] (ydlidar) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.300678] (-) TimerEvent: {}
+[1.302213] (ydlidar) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.311921] (ydlidar) StdoutLine: {'line': b'-- Generating done\n'}
+[1.312740] (ydlidar) StdoutLine: {'line': b'-- Build files have been written to: /home/guyechan/slam_ws/build/ydlidar\n'}
+[1.320431] (ydlidar) JobEnded: {'identifier': 'ydlidar', 'rc': 'SIGINT'}
+[1.331037] (-) EventReactorShutdown: {}

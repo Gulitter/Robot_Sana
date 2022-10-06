@@ -1,0 +1,21 @@
+navigation2는 param 설정이 중요하다.
+
+완벽하게 파악하려면
+param을 마스터 하는게 좋을 듯 하다...
+
+일단 goal pose로 pub을 넣어주면 이동하고,
+
+inital pose를 켜주면 자동으로 맵을 읽는다.
+
+처음 키면 map frame이 없다고 나오는데 정상이다.
+2d pose estimate가 안됐기 때문이다.
+initial pose를 켜주면 정상적으로 인식된다.
+
+ros2 topic pub /goal_pose geometry_msgs/PoseStamped "{header: {stamp: {sec: 0}, frame_id: 'map'}, pose: {position: {x: 5.0, y: -2.0, z: 0.0}, orientation: {w: 1.0}}}"
+이 토픽으로 if문으로 좌표 따서 퍼블리쉬 주면 될듯!
+
+good
+
+기본적으로 cmd_vel로 sub받으면 될듯.
+
+나머지는 srv만 만들어주면 끝~~~

@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000085] (slam) JobQueued: {'identifier': 'slam', 'dependencies': OrderedDict()}
+[0.000104] (ydlidar) JobQueued: {'identifier': 'ydlidar', 'dependencies': OrderedDict()}
+[0.000115] (yolov3) JobQueued: {'identifier': 'yolov3', 'dependencies': OrderedDict()}
+[0.000124] (slam) JobStarted: {'identifier': 'slam'}
+[0.008962] (ydlidar) JobStarted: {'identifier': 'ydlidar'}
+[0.012636] (yolov3) JobStarted: {'identifier': 'yolov3'}
+[0.098907] (-) TimerEvent: {}
+[0.164064] (ydlidar) JobProgress: {'identifier': 'ydlidar', 'progress': 'cmake'}
+[0.164296] (ydlidar) JobProgress: {'identifier': 'ydlidar', 'progress': 'build'}
+[0.164333] (ydlidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/guyechan/slam_ws/build/ydlidar', '--', '-j16', '-l16'], 'cwd': '/home/guyechan/slam_ws/build/ydlidar', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'guyechan'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1757'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/guyechan/autocar_ws/build/rlautocar:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/guyechan/autocar_ws/build/rlautocar:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/guyechan/autocar_ws/build/rlautocar:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/guyechan'), ('OLDPWD', '/home/guyechan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1474'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3944'), ('_colcon_cd_root', '/home/guyechan/autocar_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/guyechan/slam_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'guyechan'), ('JOURNAL_STREAM', '8:51506'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'guyechan'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/guyechan/autocar_ws/install/rlautocar/share/rlautocar/models:/usr/share/gazebo-11/models:/home/guyechan/autocar_ws/install/rlautocar/share/rlautocar/models:/usr/share/gazebo-11/models:/home/guyechan/autocar_ws/install/rlautocar/share/rlautocar/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/root/.local/bin:/home/guyechan/.local/bin:/usr/local/cuda-11.6/bin:/root/.local/bin:/home/guyechan/.local/bin:/usr/local/cuda-11.6/bin:/opt/ros/foxy/bin:/root/.local/bin:/home/guyechan/.local/bin:/usr/local/cuda-11.6/bin:/home/guyechan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Gulitter:@/tmp/.ICE-unix/1791,unix/Gulitter:/tmp/.ICE-unix/1791'), ('INVOCATION_ID', '92776d02914c43a8bfc4005f3402111e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/guyechan/slam_ws/install/ydlidar:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:603ca142-a131-4e48-ab59-82219505ce7f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/guyechan/slam_ws/build/ydlidar'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/guyechan/autocar_ws/build/rlautocar:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/guyechan/autocar_ws/build/rlautocar:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/guyechan/autocar_ws/build/rlautocar:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/guyechan/slam_ws/build/slam:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/guyechan/slam_ws/install/ydlidar:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy')]), 'shell': False}
+[0.193139] (ydlidar) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_client\x1b[0m\n'}
+[0.193441] (ydlidar) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_node\x1b[0m\n'}
+[0.198966] (-) TimerEvent: {}
+[0.236277] (ydlidar) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/list_ports_linux.cpp.o\x1b[0m\n'}
+[0.236467] (ydlidar) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o\x1b[0m\n'}
+[0.236512] (ydlidar) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o\x1b[0m\n'}
+[0.237201] (ydlidar) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o\x1b[0m\n'}
+[0.237529] (ydlidar) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o\x1b[0m\n'}
+[0.237917] (ydlidar) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o\x1b[0m\n'}
+[0.238128] (ydlidar) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o\x1b[0m\n'}
+[0.238230] (ydlidar) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o\x1b[0m\n'}
+[0.238716] (ydlidar) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o\x1b[0m\n'}
+[0.299059] (-) TimerEvent: {}
+[0.399327] (-) TimerEvent: {}
+[0.445136] (yolov3) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 281, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.8/subprocess.py", line 516, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', "import sys;from setuptools.extern.packaging.specifiers import SpecifierSet;from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))"]\' returned non-zero exit status 1.\n'}
+[0.445746] (yolov3) JobEnded: {'identifier': 'yolov3', 'rc': 1}
+[0.446027] (slam) JobEnded: {'identifier': 'slam', 'rc': 'SIGINT'}
+[0.499437] (-) TimerEvent: {}
+[0.599694] (-) TimerEvent: {}
+[0.699953] (-) TimerEvent: {}
+[0.800211] (-) TimerEvent: {}
+[0.900517] (-) TimerEvent: {}
+[1.000784] (-) TimerEvent: {}
+[1.101089] (-) TimerEvent: {}
+[1.201425] (-) TimerEvent: {}
+[1.301686] (-) TimerEvent: {}
+[1.401943] (-) TimerEvent: {}
+[1.502199] (-) TimerEvent: {}
+[1.602458] (-) TimerEvent: {}
+[1.702718] (-) TimerEvent: {}
+[1.802972] (-) TimerEvent: {}
+[1.903203] (-) TimerEvent: {}
+[2.003449] (-) TimerEvent: {}
+[2.103739] (-) TimerEvent: {}
+[2.192271] (ydlidar) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_node\x1b[0m\n'}
+[2.203840] (-) TimerEvent: {}
+[2.304120] (-) TimerEvent: {}
+[2.317026] (ydlidar) StdoutLine: {'line': b'[ 90%] Built target ydlidar_node\n'}
+[2.404267] (-) TimerEvent: {}
+[2.504551] (-) TimerEvent: {}
+[2.604840] (-) TimerEvent: {}
+[2.705141] (-) TimerEvent: {}
+[2.805428] (-) TimerEvent: {}
+[2.905669] (-) TimerEvent: {}
+[3.005996] (-) TimerEvent: {}
+[3.028454] (ydlidar) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_client\x1b[0m\n'}
+[3.106168] (-) TimerEvent: {}
+[3.160004] (ydlidar) StdoutLine: {'line': b'[100%] Built target ydlidar_client\n'}
+[3.167011] (ydlidar) JobEnded: {'identifier': 'ydlidar', 'rc': 'SIGINT'}
+[3.177520] (-) EventReactorShutdown: {}

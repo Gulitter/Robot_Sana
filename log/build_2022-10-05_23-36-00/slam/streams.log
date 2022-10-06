@@ -1,0 +1,86 @@
+[0.436s] Invoking command in '/home/guyechan/slam_ws/build/slam': PYTHONPATH=/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/slam --editable --build-directory /home/guyechan/slam_ws/build/slam/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/slam
+[0.585s] running develop
+[0.676s] running egg_info
+[0.676s] creating slam.egg-info
+[0.677s] writing slam.egg-info/PKG-INFO
+[0.677s] writing dependency_links to slam.egg-info/dependency_links.txt
+[0.677s] writing entry points to slam.egg-info/entry_points.txt
+[0.677s] writing requirements to slam.egg-info/requires.txt
+[0.677s] writing top-level names to slam.egg-info/top_level.txt
+[0.678s] writing manifest file 'slam.egg-info/SOURCES.txt'
+[0.697s] reading manifest file 'slam.egg-info/SOURCES.txt'
+[0.698s] writing manifest file 'slam.egg-info/SOURCES.txt'
+[0.718s] running build_ext
+[0.718s] Creating /home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages/site.py
+[0.720s] Creating /home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages/slam.egg-link (link to .)
+[0.720s] Installing main script to /home/guyechan/slam_ws/install/slam/lib/slam
+[0.720s] Installing slam_goal script to /home/guyechan/slam_ws/install/slam/lib/slam
+[0.720s] Installing slam_teleop script to /home/guyechan/slam_ws/install/slam/lib/slam
+[0.720s] 
+[0.720s] Installed /home/guyechan/slam_ws/build/slam
+[0.720s] running install_data
+[0.721s] creating /home/guyechan/slam_ws/install/slam/share/ament_index
+[0.721s] creating /home/guyechan/slam_ws/install/slam/share/ament_index/resource_index
+[0.721s] creating /home/guyechan/slam_ws/install/slam/share/ament_index/resource_index/packages
+[0.721s] copying resource/slam -> /home/guyechan/slam_ws/install/slam/share/ament_index/resource_index/packages
+[0.721s] copying package.xml -> /home/guyechan/slam_ws/install/slam/share/slam
+[0.721s] creating /home/guyechan/slam_ws/install/slam/share/slam/launch
+[0.721s] copying launch/occupancy_grid.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+[0.721s] copying launch/slam_state_publisher.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+[0.721s] copying launch/navigation2_rviz.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+[0.721s] copying launch/gazebo.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+[0.721s] copying launch/cartographer.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+[0.721s] copying launch/navigation2.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+[0.721s] copying launch/rviz.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+[0.721s] copying launch/cartographer_rviz.launch.py -> /home/guyechan/slam_ws/install/slam/share/slam/launch
+[0.721s] creating /home/guyechan/slam_ws/install/slam/share/slam/config
+[0.721s] copying config/slam_lidar.lua -> /home/guyechan/slam_ws/install/slam/share/slam/config
+[0.721s] creating /home/guyechan/slam_ws/install/slam/share/slam/rviz
+[0.721s] copying rviz/slam.rviz -> /home/guyechan/slam_ws/install/slam/share/slam/rviz
+[0.721s] copying rviz/slam_cartographer.rviz -> /home/guyechan/slam_ws/install/slam/share/slam/rviz
+[0.721s] creating /home/guyechan/slam_ws/install/slam/share/slam/urdf
+[0.721s] copying urdf/hardware.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf
+[0.722s] copying urdf/rlautocar.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf
+[0.722s] copying urdf/slam (사본).urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf
+[0.722s] copying urdf/slam2.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf
+[0.722s] copying urdf/slam.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf
+[0.722s] copying urdf/hardware1.urdf -> /home/guyechan/slam_ws/install/slam/share/slam/urdf
+[0.722s] creating /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.722s] copying meshes/link_CL1.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.722s] copying meshes/left_link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.723s] copying meshes/left_Link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.723s] copying meshes/link_BR1.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.723s] copying meshes/link_BL1.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.723s] copying meshes/link_CR1.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.723s] copying meshes/base_link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.724s] copying meshes/right_Link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.724s] copying meshes/lidar_link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.724s] copying meshes/link_FL1.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.724s] copying meshes/lidar_Link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.724s] copying meshes/link_FR1.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.724s] copying meshes/right_link.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.724s] copying meshes/base_link1.STL -> /home/guyechan/slam_ws/install/slam/share/slam/meshes
+[0.725s] creating /home/guyechan/slam_ws/install/slam/share/slam/worlds
+[0.725s] copying worlds/empty.world -> /home/guyechan/slam_ws/install/slam/share/slam/worlds
+[0.725s] creating /home/guyechan/slam_ws/install/slam/share/slam/models
+[0.725s] copying worlds/empty.world -> /home/guyechan/slam_ws/install/slam/share/slam/models
+[0.725s] creating /home/guyechan/slam_ws/install/slam/share/slam/map
+[0.725s] copying map/hallway.pgm -> /home/guyechan/slam_ws/install/slam/share/slam/map
+[0.725s] copying map/real.pgm -> /home/guyechan/slam_ws/install/slam/share/slam/map
+[0.725s] copying map/maze.pgm -> /home/guyechan/slam_ws/install/slam/share/slam/map
+[0.725s] copying map/real.yaml -> /home/guyechan/slam_ws/install/slam/share/slam/map
+[0.726s] copying map/ghome.pgm -> /home/guyechan/slam_ws/install/slam/share/slam/map
+[0.726s] copying map/hallway.yaml -> /home/guyechan/slam_ws/install/slam/share/slam/map
+[0.726s] copying map/yhome.yaml -> /home/guyechan/slam_ws/install/slam/share/slam/map
+[0.726s] copying map/ghome.yaml -> /home/guyechan/slam_ws/install/slam/share/slam/map
+[0.726s] copying map/yhome.pgm -> /home/guyechan/slam_ws/install/slam/share/slam/map
+[0.726s] copying map/maze.yaml -> /home/guyechan/slam_ws/install/slam/share/slam/map
+[0.726s] creating /home/guyechan/slam_ws/install/slam/share/slam/param
+[0.726s] copying param/slam (5번째 사본).yaml -> /home/guyechan/slam_ws/install/slam/share/slam/param
+[0.726s] copying param/slam (또 다른 사본).yaml -> /home/guyechan/slam_ws/install/slam/share/slam/param
+[0.726s] copying param/navigation 에러 해결 -> /home/guyechan/slam_ws/install/slam/share/slam/param
+[0.726s] copying param/slam (3번째 사본).yaml -> /home/guyechan/slam_ws/install/slam/share/slam/param
+[0.727s] copying param/slam.yaml -> /home/guyechan/slam_ws/install/slam/share/slam/param
+[0.727s] copying param/slam (사본).yaml -> /home/guyechan/slam_ws/install/slam/share/slam/param
+[0.727s] copying param/slam (4번째 사본).yaml -> /home/guyechan/slam_ws/install/slam/share/slam/param
+[0.744s] Invoked command in '/home/guyechan/slam_ws/build/slam' returned '0': PYTHONPATH=/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/slam --editable --build-directory /home/guyechan/slam_ws/build/slam/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/slam

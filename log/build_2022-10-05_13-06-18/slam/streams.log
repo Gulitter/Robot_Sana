@@ -1,0 +1,18 @@
+[0.427s] Invoking command in '/home/guyechan/slam_ws/build/slam': PYTHONPATH=/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/slam --editable --build-directory /home/guyechan/slam_ws/build/slam/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/slam
+[0.578s] running develop
+[0.670s] running egg_info
+[0.670s] writing slam.egg-info/PKG-INFO
+[0.670s] writing dependency_links to slam.egg-info/dependency_links.txt
+[0.670s] writing entry points to slam.egg-info/entry_points.txt
+[0.670s] writing requirements to slam.egg-info/requires.txt
+[0.670s] writing top-level names to slam.egg-info/top_level.txt
+[0.691s] reading manifest file 'slam.egg-info/SOURCES.txt'
+[0.692s] writing manifest file 'slam.egg-info/SOURCES.txt'
+[0.712s] running build_ext
+[0.712s] Creating /home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages/slam.egg-link (link to .)
+[0.713s] Installing main script to /home/guyechan/slam_ws/install/slam/lib/slam
+[0.713s] Installing slam_teleop script to /home/guyechan/slam_ws/install/slam/lib/slam
+[0.713s] 
+[0.713s] Installed /home/guyechan/slam_ws/build/slam
+[0.713s] running install_data
+[0.734s] Invoked command in '/home/guyechan/slam_ws/build/slam' returned '0': PYTHONPATH=/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/slam --editable --build-directory /home/guyechan/slam_ws/build/slam/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/slam

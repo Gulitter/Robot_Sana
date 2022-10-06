@@ -1,0 +1,397 @@
+[0.089s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--allow-overriding', 'slam', 'ydlidar', 'yolov3', 'voice_processing', 'sana_msgs']
+[0.089s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=['slam', 'ydlidar', 'yolov3', 'voice_processing', 'sana_msgs'], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1e77b68a60>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1e77b68a60>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1e77ae8040>)
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.104s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/guyechan/slam_ws'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extension 'ros'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extensions ['cmake', 'python']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extension 'cmake'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extension 'python'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extensions ['python_setup_py']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(microros) by extension 'python_setup_py'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/sana_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/sana_msgs) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/sana_msgs) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/sana_msgs) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/sana_msgs) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/sana_msgs) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/sana_msgs) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/sana_msgs) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/sana_msgs) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sana_msgs' with type 'ros.ament_cmake' and name 'sana_msgs'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam' with type 'ros.ament_python' and name 'slam'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_processing) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_processing) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_processing) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_processing) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_processing) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_processing) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_processing) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_processing) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_processing) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voice_processing' with type 'ros.ament_python' and name 'voice_processing'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2' with type 'ros.ament_cmake' and name 'ydlidar'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov3) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov3) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov3) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov3) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov3) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov3) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov3) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov3) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov3) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov3' with type 'ros.ament_python' and name 'yolov3'
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.134s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/guyechan/slam_ws/install
+[0.136s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 352 installed packages in /opt/ros/foxy
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'sana_msgs' build argument 'cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'sana_msgs' build argument 'cmake_target' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'sana_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'sana_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'sana_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'sana_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'sana_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'sana_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'sana_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.182s] DEBUG:colcon.colcon_core.verb:Building package 'sana_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/guyechan/slam_ws/build/sana_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/guyechan/slam_ws/install/sana_msgs', 'merge_install': False, 'path': '/home/guyechan/slam_ws/src/sana_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'slam' build argument 'cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'slam' build argument 'cmake_target' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.182s] DEBUG:colcon.colcon_core.verb:Building package 'slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/guyechan/slam_ws/build/slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/guyechan/slam_ws/install/slam', 'merge_install': False, 'path': '/home/guyechan/slam_ws/src/slam', 'symlink_install': True, 'test_result_base': None}
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_target' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.183s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/guyechan/slam_ws/build/ydlidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/guyechan/slam_ws/install/ydlidar', 'merge_install': False, 'path': '/home/guyechan/slam_ws/src/ydlidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'voice_processing' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'voice_processing' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'voice_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'voice_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'voice_processing' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'voice_processing' build argument 'cmake_force_configure' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'voice_processing' build argument 'ament_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'voice_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'voice_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.184s] DEBUG:colcon.colcon_core.verb:Building package 'voice_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/guyechan/slam_ws/build/voice_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/guyechan/slam_ws/install/voice_processing', 'merge_install': False, 'path': '/home/guyechan/slam_ws/src/voice_processing', 'symlink_install': True, 'test_result_base': None}
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov3' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov3' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov3' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov3' build argument 'cmake_force_configure' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov3' build argument 'ament_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'yolov3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.184s] DEBUG:colcon.colcon_core.verb:Building package 'yolov3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/guyechan/slam_ws/build/yolov3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/guyechan/slam_ws/install/yolov3', 'merge_install': False, 'path': '/home/guyechan/slam_ws/src/yolov3', 'symlink_install': True, 'test_result_base': None}
+[0.185s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.187s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.187s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/guyechan/slam_ws/src/sana_msgs' with build type 'ament_cmake'
+[0.187s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/guyechan/slam_ws/src/sana_msgs'
+[0.190s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.194s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/guyechan/slam_ws/src/slam' with build type 'ament_python'
+[0.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam', 'ament_prefix_path')
+[0.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/slam/share/slam/hook/ament_prefix_path.ps1'
+[0.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/slam/share/slam/hook/ament_prefix_path.dsv'
+[0.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/slam/share/slam/hook/ament_prefix_path.sh'
+[0.197s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.197s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.200s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/guyechan/slam_ws/src/ydlidar_ros2' with build type 'ament_cmake'
+[0.201s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/guyechan/slam_ws/src/ydlidar_ros2'
+[0.202s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.202s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/guyechan/slam_ws/build/sana_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/yolov3:/home/guyechan/slam_ws/install/voice_processing:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --build /home/guyechan/slam_ws/build/sana_msgs -- -j16 -l16
+[0.366s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/guyechan/slam_ws/src/slam'
+[0.367s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.367s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/guyechan/slam_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/yolov3:/home/guyechan/slam_ws/install/voice_processing:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --build /home/guyechan/slam_ws/build/ydlidar -- -j16 -l16
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/guyechan/slam_ws/build/sana_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/yolov3:/home/guyechan/slam_ws/install/voice_processing:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --build /home/guyechan/slam_ws/build/sana_msgs -- -j16 -l16
+[0.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/guyechan/slam_ws/build/sana_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/yolov3:/home/guyechan/slam_ws/install/voice_processing:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --install /home/guyechan/slam_ws/build/sana_msgs
+[0.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/guyechan/slam_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/yolov3:/home/guyechan/slam_ws/install/voice_processing:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --build /home/guyechan/slam_ws/build/ydlidar -- -j16 -l16
+[0.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/guyechan/slam_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/yolov3:/home/guyechan/slam_ws/install/voice_processing:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --install /home/guyechan/slam_ws/build/ydlidar
+[0.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar)
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/guyechan/slam_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/yolov3:/home/guyechan/slam_ws/install/voice_processing:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --install /home/guyechan/slam_ws/build/ydlidar
+[0.468s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar' for CMake module files
+[0.468s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar' for CMake config files
+[0.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar', 'cmake_prefix_path')
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.ps1'
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.dsv'
+[0.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.sh'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar/lib'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar/bin'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar/lib/pkgconfig/ydlidar.pc'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar/lib/python3.8/site-packages'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar/bin'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.ps1'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.dsv'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.sh'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.bash'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.zsh'
+[0.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/guyechan/slam_ws/install/ydlidar/share/colcon-core/packages/ydlidar)
+[0.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sana_msgs)
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs' for CMake module files
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/guyechan/slam_ws/build/sana_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guyechan/slam_ws/install/yolov3:/home/guyechan/slam_ws/install/voice_processing:/home/guyechan/slam_ws/install/slam:/opt/ros/foxy /usr/bin/cmake --install /home/guyechan/slam_ws/build/sana_msgs
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs' for CMake config files
+[0.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('sana_msgs', 'cmake_prefix_path')
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/cmake_prefix_path.ps1'
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/cmake_prefix_path.dsv'
+[0.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/cmake_prefix_path.sh'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs/lib'
+[0.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('sana_msgs', 'ld_library_path_lib')
+[0.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/ld_library_path_lib.ps1'
+[0.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/ld_library_path_lib.dsv'
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/ld_library_path_lib.sh'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs/bin'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs/lib/pkgconfig/sana_msgs.pc'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages'
+[0.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('sana_msgs', 'pythonpath')
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/pythonpath.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/pythonpath.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/pythonpath.sh'
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs/bin'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/package.ps1'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/package.dsv'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/package.sh'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/package.bash'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/package.zsh'
+[0.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/guyechan/slam_ws/install/sana_msgs/share/colcon-core/packages/sana_msgs)
+[0.499s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar)
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar' for CMake module files
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar' for CMake config files
+[0.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar', 'cmake_prefix_path')
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.ps1'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.dsv'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.sh'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar/lib'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar/bin'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar/lib/pkgconfig/ydlidar.pc'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar/lib/python3.8/site-packages'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/ydlidar/bin'
+[0.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.ps1'
+[0.504s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.dsv'
+[0.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.sh'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.bash'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.zsh'
+[0.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/guyechan/slam_ws/install/ydlidar/share/colcon-core/packages/ydlidar)
+[0.517s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sana_msgs)
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs' for CMake module files
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs' for CMake config files
+[0.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('sana_msgs', 'cmake_prefix_path')
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/cmake_prefix_path.ps1'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/cmake_prefix_path.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/cmake_prefix_path.sh'
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs/lib'
+[0.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('sana_msgs', 'ld_library_path_lib')
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/ld_library_path_lib.ps1'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/ld_library_path_lib.dsv'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/ld_library_path_lib.sh'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs/bin'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs/lib/pkgconfig/sana_msgs.pc'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages'
+[0.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('sana_msgs', 'pythonpath')
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/pythonpath.ps1'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/pythonpath.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/hook/pythonpath.sh'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/sana_msgs/bin'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/package.ps1'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/package.dsv'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/package.sh'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/package.bash'
+[0.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/sana_msgs/share/sana_msgs/package.zsh'
+[0.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/guyechan/slam_ws/install/sana_msgs/share/colcon-core/packages/sana_msgs)
+[0.525s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/guyechan/slam_ws/src/voice_processing' with build type 'ament_python'
+[0.525s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_processing', 'ament_prefix_path')
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/voice_processing/share/voice_processing/hook/ament_prefix_path.ps1'
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/voice_processing/share/voice_processing/hook/ament_prefix_path.dsv'
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/voice_processing/share/voice_processing/hook/ament_prefix_path.sh'
+[0.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.532s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/guyechan/slam_ws/src/yolov3' with build type 'ament_python'
+[0.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov3', 'ament_prefix_path')
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/yolov3/share/yolov3/hook/ament_prefix_path.ps1'
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/yolov3/share/yolov3/hook/ament_prefix_path.dsv'
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/yolov3/share/yolov3/hook/ament_prefix_path.sh'
+[0.535s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.535s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.688s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/guyechan/slam_ws/src/voice_processing'
+[0.689s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.689s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.846s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/guyechan/slam_ws/src/yolov3'
+[0.847s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.847s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/guyechan/slam_ws/build/slam': PYTHONPATH=/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/slam --editable --build-directory /home/guyechan/slam_ws/build/slam/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/slam
+[1.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/guyechan/slam_ws/build/voice_processing': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/sana_msgs:/home/guyechan/slam_ws/install/ydlidar LD_LIBRARY_PATH=/home/guyechan/slam_ws/install/sana_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:/home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/yolov3:/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/voice_processing:/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/slam:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/voice_processing --editable --build-directory /home/guyechan/slam_ws/build/voice_processing/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/voice_processing
+[1.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/guyechan/slam_ws/build/yolov3': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/sana_msgs:/home/guyechan/slam_ws/install/ydlidar LD_LIBRARY_PATH=/home/guyechan/slam_ws/install/sana_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:/home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/yolov3:/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/voice_processing:/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/slam:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/yolov3 --editable --build-directory /home/guyechan/slam_ws/build/yolov3/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/yolov3
+[1.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam', 'pythonpath_develop')
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/build/slam/share/slam/hook/pythonpath_develop.ps1'
+[1.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/guyechan/slam_ws/build/slam' returned '0': PYTHONPATH=/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/slam --editable --build-directory /home/guyechan/slam_ws/build/slam/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/slam
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/build/slam/share/slam/hook/pythonpath_develop.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/build/slam/share/slam/hook/pythonpath_develop.sh'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/slam' for CMake module files
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/slam' for CMake config files
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/slam/lib'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/slam/bin'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/slam/lib/pkgconfig/slam.pc'
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages'
+[1.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam', 'pythonpath')
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/slam/share/slam/hook/pythonpath.ps1'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/slam/share/slam/hook/pythonpath.dsv'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/slam/share/slam/hook/pythonpath.sh'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/slam/bin'
+[1.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam)
+[1.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/slam/share/slam/package.ps1'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/guyechan/slam_ws/install/slam/share/slam/package.dsv'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/slam/share/slam/package.sh'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/slam/share/slam/package.bash'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/slam/share/slam/package.zsh'
+[1.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/guyechan/slam_ws/install/slam/share/colcon-core/packages/slam)
+[1.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_processing', 'pythonpath_develop')
+[1.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/build/voice_processing/share/voice_processing/hook/pythonpath_develop.ps1'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/build/voice_processing/share/voice_processing/hook/pythonpath_develop.dsv'
+[1.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/guyechan/slam_ws/build/voice_processing' returned '0': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/sana_msgs:/home/guyechan/slam_ws/install/ydlidar LD_LIBRARY_PATH=/home/guyechan/slam_ws/install/sana_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:/home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/yolov3:/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/voice_processing:/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/slam:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/voice_processing --editable --build-directory /home/guyechan/slam_ws/build/voice_processing/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/voice_processing
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/build/voice_processing/share/voice_processing/hook/pythonpath_develop.sh'
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/voice_processing' for CMake module files
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/voice_processing' for CMake config files
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/voice_processing/lib'
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/voice_processing/bin'
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/voice_processing/lib/pkgconfig/voice_processing.pc'
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages'
+[1.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_processing', 'pythonpath')
+[1.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/voice_processing/share/voice_processing/hook/pythonpath.ps1'
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/voice_processing/share/voice_processing/hook/pythonpath.dsv'
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/voice_processing/share/voice_processing/hook/pythonpath.sh'
+[1.436s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/voice_processing/bin'
+[1.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voice_processing)
+[1.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/voice_processing/share/voice_processing/package.ps1'
+[1.437s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/guyechan/slam_ws/install/voice_processing/share/voice_processing/package.dsv'
+[1.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/voice_processing/share/voice_processing/package.sh'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/voice_processing/share/voice_processing/package.bash'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/voice_processing/share/voice_processing/package.zsh'
+[1.438s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/guyechan/slam_ws/install/voice_processing/share/colcon-core/packages/voice_processing)
+[1.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov3', 'pythonpath_develop')
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/build/yolov3/share/yolov3/hook/pythonpath_develop.ps1'
+[1.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/guyechan/slam_ws/build/yolov3' returned '0': CMAKE_PREFIX_PATH=/home/guyechan/slam_ws/install/sana_msgs:/home/guyechan/slam_ws/install/ydlidar LD_LIBRARY_PATH=/home/guyechan/slam_ws/install/sana_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:/home/guyechan/slam_ws/install/sana_msgs/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/yolov3:/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/voice_processing:/home/guyechan/slam_ws/install/voice_processing/lib/python3.8/site-packages:/home/guyechan/slam_ws/build/slam:/home/guyechan/slam_ws/install/slam/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/guyechan/slam_ws/install/yolov3 --editable --build-directory /home/guyechan/slam_ws/build/yolov3/build --no-deps install_data --install-dir /home/guyechan/slam_ws/install/yolov3
+[1.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/build/yolov3/share/yolov3/hook/pythonpath_develop.dsv'
+[1.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/build/yolov3/share/yolov3/hook/pythonpath_develop.sh'
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/yolov3' for CMake module files
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/yolov3' for CMake config files
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/yolov3/lib'
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/yolov3/bin'
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/yolov3/lib/pkgconfig/yolov3.pc'
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/yolov3/lib/python3.8/site-packages'
+[1.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov3', 'pythonpath')
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/yolov3/share/yolov3/hook/pythonpath.ps1'
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guyechan/slam_ws/install/yolov3/share/yolov3/hook/pythonpath.dsv'
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guyechan/slam_ws/install/yolov3/share/yolov3/hook/pythonpath.sh'
+[1.446s] Level 1:colcon.colcon_core.environment:checking '/home/guyechan/slam_ws/install/yolov3/bin'
+[1.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov3)
+[1.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/yolov3/share/yolov3/package.ps1'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/guyechan/slam_ws/install/yolov3/share/yolov3/package.dsv'
+[1.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/yolov3/share/yolov3/package.sh'
+[1.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/yolov3/share/yolov3/package.bash'
+[1.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/guyechan/slam_ws/install/yolov3/share/yolov3/package.zsh'
+[1.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/guyechan/slam_ws/install/yolov3/share/colcon-core/packages/yolov3)
+[1.448s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.448s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.448s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.449s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.453s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.458s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.459s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/guyechan/slam_ws/install/local_setup.ps1'
+[1.460s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/guyechan/slam_ws/install/_local_setup_util_ps1.py'
+[1.461s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/guyechan/slam_ws/install/setup.ps1'
+[1.461s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/guyechan/slam_ws/install/local_setup.sh'
+[1.462s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/guyechan/slam_ws/install/_local_setup_util_sh.py'
+[1.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/guyechan/slam_ws/install/setup.sh'
+[1.463s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/guyechan/slam_ws/install/local_setup.bash'
+[1.463s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/guyechan/slam_ws/install/setup.bash'
+[1.464s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/guyechan/slam_ws/install/local_setup.zsh'
+[1.464s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/guyechan/slam_ws/install/setup.zsh'

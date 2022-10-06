@@ -1,0 +1,1 @@
+/home/guyechan/slam_ws/build/sana_msgs/ament_cmake_core/sana_msgsConfig-version.cmake

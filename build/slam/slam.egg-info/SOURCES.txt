@@ -10,8 +10,16 @@ launch/navigation2_rviz.launch.py
 launch/occupancy_grid.launch.py
 launch/rviz.launch.py
 launch/slam_state_publisher.launch.py
+map/ghome.pgm
+map/ghome.yaml
+map/hallway.pgm
+map/hallway.yaml
 map/maze.pgm
 map/maze.yaml
+map/real.pgm
+map/real.yaml
+map/yhome.pgm
+map/yhome.yaml
 meshes/base_link.STL
 meshes/base_link1.STL
 meshes/left_Link.STL
@@ -26,6 +34,7 @@ meshes/link_FL1.STL
 meshes/link_FR1.STL
 meshes/right_Link.STL
 meshes/right_link.STL
+param/navigation 에러 해결
 param/slam (3번째 사본).yaml
 param/slam (4번째 사본).yaml
 param/slam (5번째 사본).yaml
@@ -36,7 +45,12 @@ resource/slam
 rviz/slam.rviz
 rviz/slam_cartographer.rviz
 slam/__init__.py
+slam/main (3번째 사본).py
+slam/main (또 다른 사본).py
+slam/main (사본).py
 slam/main.py
+slam/slam_goal.py
+slam/slam_teleop.py
 slam.egg-info/PKG-INFO
 slam.egg-info/SOURCES.txt
 slam.egg-info/dependency_links.txt

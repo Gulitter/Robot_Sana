@@ -1,0 +1,6 @@
+{
+  "package_name": "sana_msgs",
+  "non_idl_tuples": [
+    "/home/guyechan/slam_ws/src/sana_msgs:msg/Sana.msg"
+  ]
+}

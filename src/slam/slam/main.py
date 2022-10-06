@@ -18,49 +18,33 @@ class Slamtopic(Node):
 
         qos = QoSProfile(depth=10)
 
-        # Initialise publishers
-        #self.scan_pub = self.create_publisher(LaserScan, '/scan', qos)
-        self.pub_JointStates = self.create_publisher(JointState, 'joint_states', qos)
-        self.odom_pub = self.create_publisher(Odometry, 'odom', qos)
+        self.pub_JointStates = self.create_publisher(JointState, '/joint_states', qos)
+        self.odom_pub = self.create_publisher(Odometry, '/odom', qos)
         self.pub_OdomTF = TransformBroadcaster(self)
-        self.publish_timer = self.create_timer(0.010, self.odom_publish)
+        self.sub_odom = self.create_subscription(Odometry, '/slam/odom', self.odom_subscribe, qos)
         
-        self.sub_cmdVel = self.create_subcription(Twist, 'cmd_vel', self.cmdvel_subscribe, qos)
-        #self.scan_sub = self.create_subscription(
-        #    LaserScan,
-        #    '/gazebo_ros_head_hokuyo_controller/out',
-        #    self.scan_callback,
-        #    QoSProfile(depth=10, reliability=ReliabilityPolicy.BEST_EFFORT))
-
-    #def scan_callback(self, msg):
-    #    scan_msg = msg
-    #    self.scan_pub.publish(scan_msg)
-    def cmdvel_subscribe(self, cmd_vel_msg):
-        lin_vel_x = cmd_vel_msg.linear.x
-        ang_vel_z = cmd_vel_msg.angular.z
-
-    def odom_publish(self):
-    
-        q = self.quaternion_from_euler(0, 0, 0)
+    def odom_subscribe(self, odom_msg):
+        q = self.quaternion_from_euler(0, 0, odom_msg.pose.pose.position.z)
         timestamp_now = self.get_clock().now().to_msg()
         odom = Odometry()
         odom.header.frame_id = "odom"
         odom.child_frame_id = "base_footprint"
         odom.header.stamp = timestamp_now
-        odom.pose.pose.position.x = 0.0
-        odom.pose.pose.position.y = 0.0
+        odom.pose.pose.position.x = odom_msg.pose.pose.position.x
+        odom.pose.pose.position.y = odom_msg.pose.pose.position.y
         odom.pose.pose.position.z = 0.0
         odom.pose.pose.orientation.x = q[0]
         odom.pose.pose.orientation.y = q[1]
         odom.pose.pose.orientation.z = q[2]
         odom.pose.pose.orientation.w = q[3]
-        odom.twist.twist.linear.x = 0.0
+        odom.twist.twist.linear.x = odom_msg.twist.twist.linear.x
         odom.twist.twist.linear.y = 0.0
-        odom.twist.twist.angular.z = 0.0
+        odom.twist.twist.linear.z = 0.0
+        odom.twist.twist.angular.x = 0.0
+        odom.twist.twist.angular.y = 0.0
+        odom.twist.twist.angular.z = odom_msg.twist.twist.angular.z
         self.odom_pub.publish(odom)
         
-        
-    # Set odomTF data
         odom_tf = TransformStamped()
         odom_tf.header.frame_id = odom.header.frame_id
         odom_tf.child_frame_id = odom.child_frame_id
@@ -76,8 +60,8 @@ class Slamtopic(Node):
         joint_states.header.frame_id = "base_link"
         joint_states.header.stamp = timestamp_now
         joint_states.name = ['left_wheel', 'right_wheel']
-        joint_states.position = [0.0, 0.0]
-        joint_states.velocity = [0.0, 0.0]
+        joint_states.position = [odom_msg.twist.twist.linear.y, odom_msg.twist.twist.linear.z]
+        joint_states.velocity = [odom_msg.twist.twist.angular.x, odom_msg.twist.twist.angular.y]
         joint_states.effort = []
         self.pub_JointStates.publish(joint_states)
     
@@ -97,6 +81,7 @@ class Slamtopic(Node):
         q[3] = cy * cp * cr + sy * sp * sr
 
         return q
+        
 def main(args=None):
     rclpy.init(args=args)
     slam_topic = Slamtopic()

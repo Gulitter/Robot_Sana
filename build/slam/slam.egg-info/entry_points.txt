@@ -1,3 +1,5 @@
 [console_scripts]
 main = slam.main:main
+slam_goal = slam.slam_goal:main
+slam_teleop = slam.slam_teleop:main
 

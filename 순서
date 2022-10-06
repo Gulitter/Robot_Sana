@@ -1,0 +1,6 @@
+slam 
+esp32 ydlidar slam_main slam_state navigation2. navigation2_rviz
+
+hotword -> stt -> intent -> slam_goalpose -> camera, tts -> tts -> slam_goalpose -> camera, tts -> 이 사이에 stt로 구매 완료 할 문구 추가 필요...
+
+창 12개 띄워야 됨.

@@ -1,0 +1,91 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/guyechan/slam_ws/src/ydlidar_ros2/src;/home/guyechan/slam_ws/src/ydlidar_ros2/sdk/include;/home/guyechan/slam_ws/src/ydlidar_ros2/sdk/src
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/guyechan/slam_ws/build/ydlidar
+[35m[1mScanning dependencies of target ydlidar_client[0m
+[35m[1mScanning dependencies of target ydlidar_node[0m
+[  9%] [32mBuilding CXX object CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/CYdLidar.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/list_ports_linux.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_serial.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/serial.cpp.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/ydlidar_node.dir/sdk/src/lock.c.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/impl/unix/unix_timer.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/ydlidar_node.dir/sdk/src/ydlidar_driver.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable ydlidar_node[0m
+[ 90%] Built target ydlidar_node
+[100%] [32m[1mLinking CXX executable ydlidar_client[0m
+[100%] Built target ydlidar_client
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/environment/path.sh
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/local_setup.bash
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/local_setup.sh
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.dsv
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+-- Symlinking: /home/guyechan/slam_ws/install/ydlidar/share/ydlidar/package.xml

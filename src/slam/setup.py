@@ -34,6 +34,8 @@ setup(
     entry_points={
         'console_scripts': [
             'main = slam.main:main',
+            'slam_teleop = slam.slam_teleop:main',
+            'slam_goal = slam.slam_goal:main',
         ],
     },
 )

@@ -1,0 +1,1 @@
+/home/guyechan/slam_ws/build/sana_msgs/rosidl_generator_c/sana_msgs/msg/sana.h
