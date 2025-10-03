@@ -1,5 +1,7 @@
 <h1>Sana: 시각장애인을 위한 ICT융합 자율주행 서비스 로봇</h1>
 
+2022년 3인 프로젝트(리더)
+
 ㅇ 음성 안내
 
 <img width="396" height="117" alt="image" src="https://github.com/user-attachments/assets/eb7afb61-1de9-4c09-9da2-f1beea36813f" />
